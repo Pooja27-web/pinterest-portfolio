@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Poojashree H | Data Analyst & Business Intelligence Portfolio</title>
+  <meta name="description" content="Aesthetic Pinterest portfolio of Poojashree H. BCA Data Science student at Alliance University, Bangalore. CGPA 9.5, Power BI, NLP, Fullstack.">
+  
+  <!-- Google Fonts: Plus Jakarta Sans, Syne, Outfit, Playfair Display & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Syne:wght@700;800&family=Outfit:wght@600;700;800&family=Playfair+Display:ital,wght@0,600;1,400&family=Space+Grotesk:wght@600;700&family=Fira+Code:wght@400;600&display=swap" rel="stylesheet">
+  
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Chart.js for Live Data Analytics Sandbox -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Ambient Background Blurs -->
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+  <div class="bg-blur bg-blur-3"></div>
+
+  <!-- CLEAN AESTHETIC PINTEREST NAVBAR -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      
+      <!-- Brand Logo -->
+      <a href="#" class="brand-logo">
+        <span class="logo-pin"><i class="fa-solid fa-thumbtack"></i></span>
+        <span class="logo-text">Poojashree H</span>
+      </a>
+
+      <!-- Clean Nav Menu -->
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#about" class="nav-link active">About</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#certs" class="nav-link">Certifications</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#sandbox" class="nav-link">Sandbox</a>
+        <a href="#resumecv-section" class="nav-link">Resume & CV</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Clean Nav Actions -->
+      <div class="nav-actions">
+        <a href="assets/Poojashree_H_American_ATS_Resume.pdf" download class="clean-resume-btn" title="Download Official PDF Resume">
+          <i class="fa-solid fa-file-arrow-down"></i> <span>Download Resume PDF</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main class="main-content">
+    
+    <!-- Hero / Profile Section -->
+    <section class="hero-section" id="about">
+      <div class="hero-container">
+        
+        <!-- Left Profile Card -->
+        <div class="hero-profile-card tilt-card">
+          <div class="profile-avatar-wrapper">
+            <img src="assets/images/poojashree.png" alt="Poojashree H Photo" class="profile-img" id="profile-img">
+            <span class="status-badge" title="Merit Scholar & Open to Opportunities">
+              <span class="status-pulse"></span>
+              <span>Available for Hire</span>
+            </span>
+          </div>
+
+          <h1 class="dev-name">Poojashree H</h1>
+          <p class="dev-title">Data Analyst • Business Intelligence • FSD</p>
+
+          <div class="location-tag">
+            <i class="fa-solid fa-location-dot"></i> Bangalore, India <span class="time-badge" id="live-clock">10:30 AM</span>
+          </div>
+
+          <!-- Academic Honors Badges -->
+          <div class="academic-honors-container">
+            <div class="honor-pill gpa-pill">
+              <i class="fa-solid fa-trophy"></i>
+              <span><strong>9.5 / 9.4</strong> Cumulative CGPA</span>
+            </div>
+            <div class="honor-pill scholar-pill">
+              <i class="fa-solid fa-award"></i>
+              <span>Merit Scholarship Student</span>
+            </div>
+          </div>
+
+          <!-- Tech Stack Chips -->
+          <div class="profile-tags">
+            <span class="tag-chip"><i class="fa-solid fa-chart-pie"></i> Power BI & DAX</span>
+            <span class="tag-chip"><i class="fa-brands fa-python"></i> Python & NLP</span>
+            <span class="tag-chip"><i class="fa-solid fa-database"></i> SQL & Mongo</span>
+            <span class="tag-chip"><i class="fa-brands fa-react"></i> React & Node</span>
+          </div>
+
+          <!-- Social Links Bar -->
+          <div class="social-pills">
+            <a href="https://github.com/Pooja27-web" target="_blank" class="social-pill" title="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/poojashree-harish-kumar" target="_blank" class="social-pill" title="LinkedIn Profile"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://leetcode.com/u/JAPOO_WEB_CODE/" target="_blank" class="social-pill" title="LeetCode Profile"><i class="fa-solid fa-code"></i></a>
+            <a href="https://www.hackerrank.com/profile/ph089683" target="_blank" class="social-pill" title="HackerRank Profile"><i class="fa-brands fa-hackerrank"></i></a>
+            <a href="assets/Poojashree_Technical_Profile.pdf" target="_blank" class="social-pill" title="Technical Profile Document (PDF)"><i class="fa-solid fa-file-invoice"></i></a>
+            <a href="mailto:ph089683@gmail.com" class="social-pill" title="Direct Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+
+          <!-- Action Buttons -->
+          <div class="hero-buttons">
+            <a href="assets/Poojashree_H_American_ATS_Resume.pdf" download class="action-btn download-btn">
+              <i class="fa-solid fa-file-pdf"></i> Download PDF Resume
+            </a>
+            <button class="action-btn copy-btn" id="watch-presentation-btn" style="border: 2px solid var(--accent-pink); color: var(--accent-pink); font-weight: 700;">
+              <i class="fa-solid fa-circle-play" style="color: var(--accent-pink);"></i> Watch Portfolio Walkthrough
+            </button>
+            <button class="action-btn copy-btn" id="copy-email-btn">
+              <i class="fa-regular fa-copy"></i> Copy Direct Email
+            </button>
+          </div>
+        </div>
+
+        <!-- Right Creative Minimalist Moodboard Card -->
+        <div class="hero-moodboard-card tilt-card">
+          <div class="moodboard-header">
+            <span class="pill-label"><i class="fa-solid fa-graduation-cap"></i> BCA Data Science @ Alliance University (5th Sem)</span>
+            <h2 class="moodboard-heading">I don't just look at numbers — I find <span>the story hidden inside data</span>.</h2>
+          </div>
+
+          <div class="moodboard-bio-container">
+            <p class="moodboard-bio">
+              Hey there! I'm <strong>Poojashree H</strong>, a 3rd-year BCA Data Science student at Alliance University in Bangalore. I specialize in turning raw chaotic datasets into crisp visual dashboards, sentiment analysis models, and full-stack web applications.
+            </p>
+            <p class="moodboard-bio">
+              As an Alliance <strong>Merit Scholarship recipient with a 9.5 CGPA</strong> and a <strong>Top 12 Finalist out of 203 teams</strong> in the 2026 Internal Hackathon, I bridge the gap between complex analytical data and strategic business decisions.
+            </p>
+          </div>
+
+          <!-- Live Metrics Grid -->
+          <div class="stats-grid">
+            <div class="stat-card">
+              <span class="stat-number">9.5</span>
+              <span class="stat-label">Academic CGPA</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">100K+</span>
+              <span class="stat-label">EV Records Processed</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">DAX Calculations</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-number">1M1B</span>
+              <span class="stat-label">AI Intern Project</span>
+            </div>
+          </div>
+
+          <!-- Pinterest Quote Box -->
+          <div class="moodboard-quote-box">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <p class="quote-text">"In God we trust. All others must bring data."</p>
+            <span class="quote-author">— W. Edwards Deming</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Infinite Tech & Achievements Marquee Ticker -->
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <div class="marquee-item"><i class="fa-solid fa-bolt"></i> Power BI & DAX Specialist</div>
+        <div class="marquee-item"><i class="fa-solid fa-star"></i> 9.5 CGPA Merit Scholar</div>
+        <div class="marquee-item"><i class="fa-solid fa-trophy"></i> Alliance Hackathon Top 12 Rank</div>
+        <div class="marquee-item"><i class="fa-solid fa-database"></i> 100K+ EV Records Analyzed</div>
+        <div class="marquee-item"><i class="fa-solid fa-brain"></i> WARLENS NLP Sentiment Model</div>
+        <div class="marquee-item"><i class="fa-solid fa-laptop-code"></i> CampusCart Full-Stack Web App</div>
+        <div class="marquee-item"><i class="fa-solid fa-leaf"></i> Salesforce 1M1B Green AI Intern</div>
+        <!-- Duplicate for Seamless Infinite Loop -->
+        <div class="marquee-item"><i class="fa-solid fa-bolt"></i> Power BI & DAX Specialist</div>
+        <div class="marquee-item"><i class="fa-solid fa-star"></i> 9.5 CGPA Merit Scholar</div>
+        <div class="marquee-item"><i class="fa-solid fa-trophy"></i> Alliance Hackathon Top 12 Rank</div>
+        <div class="marquee-item"><i class="fa-solid fa-database"></i> 100K+ EV Records Analyzed</div>
+        <div class="marquee-item"><i class="fa-solid fa-brain"></i> WARLENS NLP Sentiment Model</div>
+        <div class="marquee-item"><i class="fa-solid fa-laptop-code"></i> CampusCart Full-Stack Web App</div>
+        <div class="marquee-item"><i class="fa-solid fa-leaf"></i> Salesforce 1M1B Green AI Intern</div>
+      </div>
+    </div>
+
+    <!-- Interactive Draggable Sticky Notes -->
+    <div class="sticky-notes-wrapper">
+      <div class="sticky-note note-yellow" title="Drag me around!">
+        <div class="note-header"><span>Hackathon Highlight</span><i class="fa-solid fa-trophy"></i></div>
+        <p>Top 12 Finalist Team Rank out of 203 teams in Alliance Internal Hackathon 2026!</p>
+      </div>
+      
+      <div class="sticky-note note-pink" title="Drag me around!">
+        <div class="note-header"><span>Academic Merit</span><i class="fa-solid fa-award"></i></div>
+        <p>Maintaining a 9.5 / 9.4 Cumulative CGPA & Alliance Merit Scholarship Student!</p>
+      </div>
+
+      <div class="sticky-note note-green" title="Drag me around!">
+        <div class="note-header"><span>AI Sustainability</span><i class="fa-solid fa-leaf"></i></div>
+        <p>Certified 1M1B Green AI Sustainability Intern (Salesforce Initiative)</p>
+      </div>
+
+      <div class="sticky-note note-blue" title="Drag me around!">
+        <div class="note-header"><span>Data & DAX</span><i class="fa-solid fa-chart-pie"></i></div>
+        <p>Analyzed 100,000+ EV records with 15+ custom DAX measures in Power BI!</p>
+      </div>
+    </div>
+
+    <!-- ABOUT ME & PERSONAL STORY SECTION -->
+    <section class="story-section" id="mystory">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-user-gear"></i> Personal Journey</span>
+        <h2 class="section-title">About Me & My Passion</h2>
+        <p class="section-description">A deep dive into who I am, my academic journey at Alliance University, and my career vision in Data Analytics.</p>
+      </div>
+
+      <div class="story-grid">
+        <div class="story-card">
+          <div class="story-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Academic Foundation & Honors</h3>
+          <p>
+            I am currently in my <strong>5th Semester (3rd Year)</strong> of Bachelor of Computer Applications specializing in <strong>Data Science</strong> at <strong>Alliance University, Bangalore</strong>. Throughout my academic journey, I have maintained an outstanding <strong>9.5 / 9.4 Cumulative CGPA</strong> and was awarded the prestigious <strong>Merit-Based Scholarship</strong>.
+          </p>
+        </div>
+
+        <div class="story-card">
+          <div class="story-card-icon"><i class="fa-solid fa-chart-pie"></i></div>
+          <h3>Data Analytics & Business Intelligence</h3>
+          <p>
+            My core passion lies in unearthing actionable insights from large datasets. In my Power BI projects, I worked with <strong>100,000+ Electric Vehicle population records</strong>, formulating <strong>10+ DAX measures</strong> and deriving <strong>15+ strategic business insights</strong>.
+          </p>
+        </div>
+
+        <div class="story-card">
+          <div class="story-card-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>NLP Research & AI Innovations</h3>
+          <p>
+            Beyond traditional analytics, I explore AI and Natural Language Processing. For my <strong>WARLENS</strong> project, I manually curated news reports into structured NLP datasets. During my <strong>1M1B Internship</strong>, I engineered <strong>CarbonTrace</strong>—an AI carbon footprinter tool deployed live on Netlify.
+          </p>
+        </div>
+
+        <div class="story-card">
+          <div class="story-card-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Full-Stack & Event Leadership</h3>
+          <p>
+            I build full-stack web applications using <strong>React, Node.js, Express, and MongoDB</strong> (like my <strong>CampusCart</strong> platform). In addition, I actively organize major university events and participate in campus hackathons.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIVE DATA ANALYTICS SANDBOX -->
+    <section class="sandbox-section" id="sandbox">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-chart-line"></i> Interactive Demo</span>
+        <h2 class="section-title">Poojashree's Analytics Sandbox</h2>
+        <p class="section-description">Test my live analytics engine right here! Switch metrics below to dynamically re-render data charts in real-time.</p>
+      </div>
+
+      <div class="sandbox-container">
+        <div class="sandbox-controls">
+          <button class="sandbox-btn active" data-dataset="ev">EV Market Adoption (100K+ Records)</button>
+          <button class="sandbox-btn" data-dataset="sentiment">WARLENS NLP Sentiment Scores</button>
+          <button class="sandbox-btn" data-dataset="carbon">CarbonTrace Savings Metrics</button>
+        </div>
+
+        <div class="sandbox-chart-wrapper">
+          <canvas id="sandboxChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-grip"></i> Hand-Crafted Works</span>
+        <h2 class="section-title">Pinterest Project Pins</h2>
+        <p class="section-description">Explore my completed projects and upcoming builds currently brewing in the lab.</p>
+
+        <div class="search-box">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" id="pin-search-input" placeholder="Search projects by keyword, tech stack, or title...">
+        </div>
+
+        <div class="filter-bar">
+          <button class="filter-tab active" data-filter="all">All Pins (6)</button>
+          <button class="filter-tab" data-filter="data">Data Analytics & BI</button>
+          <button class="filter-tab" data-filter="ai">NLP & AI</button>
+          <button class="filter-tab" data-filter="web">Fullstack Web</button>
+          <button class="filter-tab" data-filter="lab">In The Lab</button>
+        </div>
+      </div>
+
+      <div class="pinterest-grid" id="projects-grid">
+        <!-- Pin 1 -->
+        <div class="pin-card" data-category="ai" data-id="1">
+          <div class="pin-image-wrapper">
+            <img src="assets/images/warlens_nlp_dashboard.jpg" alt="WARLENS Sentiment Analysis" class="pin-img">
+            <div class="pin-overlay">
+              <button class="pin-save-btn"><i class="fa-solid fa-heart"></i> <span class="like-count">48</span></button>
+              <div class="pin-overlay-actions">
+                <button class="pin-icon-btn view-details-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> View Details</button>
+              </div>
+            </div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge">NLP & Data Science</span>
+              <span class="pin-date">2026</span>
+            </div>
+            <h3 class="pin-title">WARLENS — Public Sentiment Analysis</h3>
+            <p class="pin-snippet">Curated & structured war news reports into a dataset for NLP sentiment classification & conflict analysis.</p>
+            <div class="pin-tech-stack">
+              <span>Python</span>
+              <span>NLP</span>
+              <span>Pandas</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pin 2 -->
+        <div class="pin-card" data-category="ai" data-id="2">
+          <div class="pin-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800" alt="CarbonTrace AI Footprinter" class="pin-img">
+            <div class="pin-overlay">
+              <button class="pin-save-btn"><i class="fa-solid fa-heart"></i> <span class="like-count">56</span></button>
+              <div class="pin-overlay-actions">
+                <button class="pin-icon-btn view-details-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> Live Demo</button>
+              </div>
+            </div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge">AI Sustainability</span>
+              <span class="pin-date">1M1B Internship</span>
+            </div>
+            <h3 class="pin-title">CarbonTrace — AI Carbon Footprinter</h3>
+            <p class="pin-snippet">Calculates daily carbon footprint from travel, energy, and diet habits with personalized reduction suggestions.</p>
+            <div class="pin-tech-stack">
+              <span>AI Models</span>
+              <span>JavaScript</span>
+              <span>Netlify</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pin 3 -->
+        <div class="pin-card" data-category="data" data-id="3">
+          <div class="pin-image-wrapper">
+            <img src="assets/images/powerbi_ev_dashboard.jpg" alt="EV Intelligence Dashboard" class="pin-img">
+            <div class="pin-overlay">
+              <button class="pin-save-btn"><i class="fa-solid fa-heart"></i> <span class="like-count">64</span></button>
+              <div class="pin-overlay-actions">
+                <button class="pin-icon-btn view-details-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> View Insights</button>
+              </div>
+            </div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge">Power BI & DAX</span>
+              <span class="pin-date">2026</span>
+            </div>
+            <h3 class="pin-title">Electric Vehicle Market Intelligence</h3>
+            <p class="pin-snippet">100K+ EV population records analyzed across 5 interactive dashboards with 10+ DAX measures & 15+ business insights.</p>
+            <div class="pin-tech-stack">
+              <span>Power BI</span>
+              <span>DAX</span>
+              <span>Power Query</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pin 4 -->
+        <div class="pin-card" data-category="web" data-id="4">
+          <div class="pin-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&q=80&w=800" alt="CampusCart E-Commerce" class="pin-img">
+            <div class="pin-overlay">
+              <button class="pin-save-btn"><i class="fa-solid fa-heart"></i> <span class="like-count">39</span></button>
+              <div class="pin-overlay-actions">
+                <button class="pin-icon-btn view-details-btn"><i class="fa-solid fa-up-right-and-down-left-from-center"></i> View Code</button>
+              </div>
+            </div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge">Fullstack Web</span>
+              <span class="pin-date">2025</span>
+            </div>
+            <h3 class="pin-title">CampusCart — Campus E-Commerce</h3>
+            <p class="pin-snippet">Campus buying and selling marketplace platform engineered with REST APIs and Express backend.</p>
+            <div class="pin-tech-stack">
+              <span>React</span>
+              <span>Node.js</span>
+              <span>MongoDB</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pin 5: Lab 1 -->
+        <div class="pin-card lab-card" data-category="lab" data-id="5">
+          <div class="pin-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=800" alt="Stock Sentiment Engine" class="pin-img">
+            <div class="lab-badge"><i class="fa-solid fa-flask-vial"></i> In Progress (85%)</div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge lab-cat">🧪 Next Build</span>
+            </div>
+            <h3 class="pin-title">Financial Market Sentiment Predictor</h3>
+            <p class="pin-snippet">Integrating Financial News NLP analysis with time-series stock movement prediction algorithms.</p>
+          </div>
+        </div>
+
+        <!-- Pin 6: Lab 2 -->
+        <div class="pin-card lab-card" data-category="lab" data-id="6">
+          <div class="pin-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&q=80&w=800" alt="Academic Performance AI" class="pin-img">
+            <div class="lab-badge"><i class="fa-solid fa-flask-vial"></i> Planned</div>
+          </div>
+          <div class="pin-content">
+            <div class="pin-meta">
+              <span class="pin-category-badge lab-cat">🧪 Next Build</span>
+            </div>
+            <h3 class="pin-title">Student Performance Analytics Engine</h3>
+            <p class="pin-snippet">Machine learning model predicting academic trajectory and recommending course mastery paths.</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- NEW VISUAL CERTIFICATIONS & BADGES GALLERY SECTION -->
+    <section class="certs-section" id="certs">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-certificate"></i> Verified Badges</span>
+        <h2 class="section-title">Certifications & Badges</h2>
+        <p class="section-description">Official verified certifications from IBM, Meta, Salesforce, and top global universities extracted from my technical profile.</p>
+      </div>
+
+      <div class="certs-grid">
+        
+        <!-- Cert Card 1: IBM Data Analysis -->
+        <a class="cert-card" href="https://drive.google.com/file/d/1szQf0UYedSyGQvqtkGYZeWidbWFXowff/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/ibm_badge.jpg" alt="IBM Badge Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">IBM Verified <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">Data Analysis with Python</h3>
+            <p class="cert-desc">Exploratory data analysis, Pandas, NumPy, and statistical hypothesis testing with Python.</p>
+            <div class="cert-tags">
+              <span>Python</span><span>Pandas</span><span>IBM</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+        <!-- Cert Card 2: 1M1B Salesforce & AICTE -->
+        <a class="cert-card" href="https://drive.google.com/file/d/1_i7dfl61YzNl55rB3zCdNlJZaTsBYxIO/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/salesforce_badge.jpg" alt="Salesforce 1M1B Badge Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">AICTE & Salesforce <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">1M1B Green Internship</h3>
+            <p class="cert-desc">AI sustainability development, carbon footprint algorithms, and web tool deployment.</p>
+            <div class="cert-tags">
+              <span>Salesforce</span><span>AICTE</span><span>AI Tools</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+        <!-- Cert Card 3: UIUC Data Visualization -->
+        <a class="cert-card" href="https://coursera.org/share/6212edd8b0e869bb4ef5cf46ab9398d5" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/illinois_badge.jpg" alt="University of Illinois Badge Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Univ of Illinois Urbana-Champaign <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">Data Visualization</h3>
+            <p class="cert-desc">Visual analytics storytelling, chart optimization, and interactive dashboard principles.</p>
+            <div class="cert-tags">
+              <span>Data Viz</span><span>UIUC</span><span>Dashboards</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+        <!-- Cert Card 4: Meta Databases -->
+        <a class="cert-card" href="https://drive.google.com/file/d/1i7wUnd2KhPNAuzYLe9OFiE3HSS8W0gqe/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/meta_badge.jpg" alt="Meta Badge Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">Meta Verified <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">Introduction to Databases</h3>
+            <p class="cert-desc">SQL queries, database modeling, joins, subqueries, and relational schema management.</p>
+            <div class="cert-tags">
+              <span>Meta</span><span>SQL</span><span>DBMS</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+        <!-- Cert Card 5: University of Michigan Python -->
+        <a class="cert-card" href="https://coursera.org/share/b0cf48a02892358c4c31a46ca734e06a" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/michigan_badge.jpg" alt="University of Michigan Badge Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">University of Michigan <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">Programming for Everybody (Python)</h3>
+            <p class="cert-desc">Core Python syntax, data structures, functions, and algorithmic logic foundation.</p>
+            <div class="cert-tags">
+              <span>UMich</span><span>Python</span><span>Algorithms</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+        <!-- Cert Card 6: IBM Data Warehouse -->
+        <a class="cert-card" href="https://www.coursera.org/account/accomplishments/certificate/Q9G4VKRBZ4YW" target="_blank" rel="noopener noreferrer">
+          <div class="cert-logo-box">
+            <img src="assets/images/ibm_badge.jpg" alt="IBM Data Warehouse Logo" class="cert-logo-img">
+          </div>
+          <div class="cert-info">
+            <span class="cert-issuer">IBM Verified <i class="fa-solid fa-arrow-up-right-from-square"></i></span>
+            <h3 class="cert-name">Data Warehouse Fundamentals</h3>
+            <p class="cert-desc">ETL pipelines, data warehousing architecture, star schemas, and business intelligence concepts.</p>
+            <div class="cert-tags">
+              <span>IBM</span><span>Data Warehouse</span><span>ETL</span>
+            </div>
+            <div class="cert-verify-link">Verify Credential <i class="fa-solid fa-external-link"></i></div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-code"></i> Technical Matrix</span>
+        <h2 class="section-title">Skills & Stack Proficiency</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="icon-box data-box"><i class="fa-solid fa-chart-pie"></i></div>
+            <h3>Data Analytics & BI</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Power BI & DAX</span><span>92%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 92%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Python (Pandas, NumPy, NLP)</span><span>90%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>SQL Database Querying</span><span>88%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="icon-box frontend-box"><i class="fa-brands fa-react"></i></div>
+            <h3>Fullstack Web</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>HTML5, CSS3, Java, JS</span><span>95%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 95%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>JavaScript & React.js</span><span>88%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 88%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Node.js / Express & MongoDB</span><span>82%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 82%;"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-card-header">
+            <div class="icon-box tools-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <h3>Developer Workflow</h3>
+          </div>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info"><span>Git & GitHub Control</span><span>94%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 94%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Postman API & VS Code</span><span>90%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info"><span>Event Management & Leadership</span><span>90%</span></div>
+              <div class="progress-bar"><div class="progress-fill" style="width: 90%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUME, TECHNICAL PROFILE & CV SECTION -->
+    <section class="resumecv-section" id="resumecv-section">
+      <div class="section-header">
+        <span class="section-subtitle"><i class="fa-solid fa-file-pdf"></i> Official Credentials</span>
+        <h2 class="section-title">Resume, Technical Profile & CV</h2>
+        <p class="section-description">Access and download Poojashree's verified technical profile, ATS resume, and full academic CV.</p>
+      </div>
+
+      <div class="resumecv-grid">
+        <!-- Card 1: ATS Resume -->
+        <div class="resumecv-card active-card">
+          <div class="card-tag-header">
+            <span class="tag-status live-tag"><i class="fa-solid fa-circle-check"></i> 100/100 ATS Verified</span>
+            <span class="tag-date">Target: Data Analyst</span>
+          </div>
+
+          <div class="card-main-body">
+            <div class="doc-icon"><i class="fa-solid fa-file-pdf"></i></div>
+            <h3>Poojashree H — Data Analyst Resume</h3>
+            <p>US Standard ATS single-column format featuring 9.4 2nd Year CGPA, Merit Scholarship, Power BI 100K+ EV records, Domino's EDA, and WARLENS NLP.</p>
+            
+            <div class="doc-actions">
+              <a href="assets/Poojashree_H_American_ATS_Resume.pdf" download class="primary-btn doc-btn">
+                <i class="fa-solid fa-download"></i> Download ATS Resume
+              </a>
+              <a href="Poojashree_H_American_ATS_Resume.html" target="_blank" class="action-btn copy-btn doc-btn-outline">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview Online
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2: Technical Profile PDF -->
+        <div class="resumecv-card active-card">
+          <div class="card-tag-header">
+            <span class="tag-status live-tag" style="background:#FEF3C7; color:#B45309;"><i class="fa-solid fa-code"></i> Technical Document</span>
+            <span class="tag-date">Verified Technical Profile</span>
+          </div>
+
+          <div class="card-main-body">
+            <div class="doc-icon alt-icon" style="background:rgba(217, 119, 6, 0.1); color:#D97706;"><i class="fa-solid fa-file-invoice"></i></div>
+            <h3>Poojashree H — Technical Profile</h3>
+            <p>Official technical profile document outlining developer accounts (GitHub, LinkedIn, LeetCode, HackerRank), analytical competencies, and project portfolio.</p>
+            
+            <div class="doc-actions">
+              <a href="assets/Poojashree_Technical_Profile.pdf" download class="primary-btn doc-btn">
+                <i class="fa-solid fa-download"></i> Download Tech Profile
+              </a>
+              <a href="assets/Poojashree_Technical_Profile.pdf" target="_blank" class="action-btn copy-btn doc-btn-outline">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open PDF
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3: Curriculum Vitae (CV) -->
+        <div class="resumecv-card active-card">
+          <div class="card-tag-header">
+            <span class="tag-status live-tag"><i class="fa-solid fa-circle-check"></i> Verified CV</span>
+            <span class="tag-date">Full Academic Record</span>
+          </div>
+
+          <div class="card-main-body">
+            <div class="doc-icon alt-icon"><i class="fa-solid fa-file-pdf"></i></div>
+            <h3>Poojashree H — Curriculum Vitae (CV)</h3>
+            <p>Comprehensive multi-page academic & professional CV featuring 9.5 CGPA, Alliance Merit Scholarship, Top 12 Hackathon Rank, 1M1B Salesforce Internship & Credentials.</p>
+            
+            <div class="doc-actions">
+              <a href="assets/Poojashree_H_Curriculum_Vitae.pdf" download class="primary-btn doc-btn">
+                <i class="fa-solid fa-download"></i> Download PDF CV
+              </a>
+              <a href="cv.html" target="_blank" class="action-btn copy-btn doc-btn-outline">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Preview Online
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        <div class="contact-info-card">
+          <span class="section-subtitle"><i class="fa-solid fa-paper-plane"></i> Direct Reach</span>
+          <h2 class="contact-heading">Let's talk Data Analytics & Opportunities.</h2>
+          <p class="contact-desc">Open for Data Analyst internships, research collaborations, and full-stack projects.</p>
+
+          <div class="contact-details">
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div>
+                <span class="detail-label">Academic Email</span>
+                <span class="detail-val">hpoojashreeBCA24@ced.alliance.edu.in</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-paper-plane"></i></div>
+              <div>
+                <span class="detail-label">Personal Email</span>
+                <span class="detail-val">ph089683@gmail.com</span>
+              </div>
+            </div>
+
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div>
+                <span class="detail-label">Location</span>
+                <span class="detail-val">Bangalore, Karnataka, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="contact-form-card">
+          <div class="quick-preset-container">
+            <span class="preset-label"><i class="fa-solid fa-wand-magic-sparkles"></i> One-Click Recruiter Presets:</span>
+            <button type="button" class="preset-chip" data-msg="Hi Poojashree, I reviewed your portfolio and would love to schedule an interview for a Data Analyst role!">Invite for Interview</button>
+            <button type="button" class="preset-chip" data-msg="Hi Poojashree, I would like to learn more about your Power BI Electric Vehicle & DAX projects.">Ask About Projects</button>
+            <button type="button" class="preset-chip" data-msg="Hi Poojashree, we have a Data Analytics / BI Internship opportunity and would love to connect.">Internship Opportunity</button>
+          </div>
+          <form id="contact-form" class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" required placeholder="Recruiter / Professor / Friend">
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" required placeholder="name@example.com">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" required placeholder="Type your message here..."></textarea>
+            </div>
+
+            <button type="submit" class="cta-btn primary-btn submit-btn" id="submit-btn">
+              <span>Send Message</span>
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <p class="footer-copy">&copy; 2026 Poojashree H | Alliance University BCA Data Science.</p>
+    </div>
+  </footer>
+
+  <!-- Project Modal Window -->
+  <div class="modal-backdrop" id="project-modal">
+    <div class="modal-window">
+      <button class="modal-close" id="modal-close-btn">&times;</button>
+      <div class="modal-body">
+        <div class="modal-img-wrapper">
+          <img src="" alt="Project View" id="modal-img" class="modal-img">
+        </div>
+        <div class="modal-info">
+          <span class="pin-category-badge" id="modal-badge">Category</span>
+          <h2 class="modal-title" id="modal-title">Project Title</h2>
+          <p class="modal-description" id="modal-desc">Description</p>
+          <div class="modal-tech-wrapper">
+            <div class="pin-tech-stack" id="modal-tech"></div>
+          </div>
+          <div class="modal-actions">
+            <a href="#" target="_blank" id="modal-demo-btn" class="modal-btn primary-modal-btn"><i class="fa-solid fa-globe"></i> View Live / Demo</a>
+            <a href="#" target="_blank" id="modal-github-btn" class="modal-btn secondary-modal-btn"><i class="fa-brands fa-github"></i> GitHub Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Inline PDF Document Preview Modal -->
+  <div class="modal-backdrop" id="pdf-preview-modal">
+    <div class="pdf-modal-container">
+      <div class="pdf-modal-header">
+        <h3 id="pdf-modal-title"><i class="fa-solid fa-file-pdf" style="color:#E60023;"></i> PDF Document Viewer</h3>
+        <div class="pdf-modal-actions">
+          <a href="#" id="pdf-modal-download" download class="modal-btn primary-modal-btn" style="text-decoration:none;"><i class="fa-solid fa-download"></i> Download PDF</a>
+          <button class="modal-close" id="pdf-modal-close-btn">&times;</button>
+        </div>
+      </div>
+      <iframe id="pdf-modal-iframe" src="" title="PDF Document Viewer"></iframe>
+    </div>
+  </div>
+
+  <!-- Video Presentation Modal -->
+  <div class="modal-backdrop" id="video-presentation-modal">
+    <div class="pdf-modal-container" style="max-width: 900px; height: 580px;">
+      <div class="pdf-modal-header">
+        <h3><i class="fa-solid fa-circle-play" style="color:#E60023;"></i> Poojashree H — Portfolio Presentation Walkthrough</h3>
+        <button class="modal-close" id="video-modal-close-btn">&times;</button>
+      </div>
+      <div style="width: 100%; height: calc(100% - 60px); background: #000; display: flex; align-items: center; justify-content: center; position: relative;">
+        <iframe id="video-modal-iframe" src="" title="Portfolio Walkthrough Video" style="width:100%; height:100%; border:none;" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <i class="fa-solid fa-circle-check"></i>
+    <span id="toast-message">Message sent!</span>
+  </div>
+
+  <!-- Spotlight Command Palette Modal (Ctrl + K) -->
+  <div class="cmd-modal-backdrop" id="cmd-palette-modal">
+    <div class="cmd-palette-box">
+      <div class="cmd-header">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="cmd-input" class="cmd-input" placeholder="Type a command or search (e.g. Resume, Power BI, Email)..." autofocus>
+        <button class="modal-close" id="cmd-close-btn" style="position:static; font-size:1.4rem;">&times;</button>
+      </div>
+      <div class="cmd-list" id="cmd-list">
+        <div class="cmd-item" data-action="download-resume">
+          <div class="cmd-item-info"><i class="fa-solid fa-file-pdf" style="color:#E60023;"></i> <span>Download ATS Resume PDF</span></div>
+          <span class="cmd-shortcut">PDF</span>
+        </div>
+        <div class="cmd-item" data-action="download-cv">
+          <div class="cmd-item-info"><i class="fa-solid fa-scroll" style="color:#8B5CF6;"></i> <span>Download Academic CV PDF</span></div>
+          <span class="cmd-shortcut">PDF</span>
+        </div>
+        <div class="cmd-item" data-action="view-ev-project">
+          <div class="cmd-item-info"><i class="fa-solid fa-chart-pie" style="color:#0284C7;"></i> <span>View Power BI EV Population Dashboard</span></div>
+          <span class="cmd-shortcut">Project #3</span>
+        </div>
+        <div class="cmd-item" data-action="view-warlens">
+          <div class="cmd-item-info"><i class="fa-solid fa-brain" style="color:#E60023;"></i> <span>View WARLENS NLP Sentiment Engine</span></div>
+          <span class="cmd-shortcut">Project #1</span>
+        </div>
+        <div class="cmd-item" data-action="copy-email">
+          <div class="cmd-item-info"><i class="fa-solid fa-envelope" style="color:#10B981;"></i> <span>Copy Direct Email (ph089683@gmail.com)</span></div>
+          <span class="cmd-shortcut">Copy</span>
+        </div>
+        <div class="cmd-item" data-action="copy-phone">
+          <div class="cmd-item-info"><i class="fa-solid fa-phone" style="color:#E05A47;"></i> <span>Copy Phone Number (+91 8050606420)</span></div>
+          <span class="cmd-shortcut">Copy</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Pink Dotted Interactive Cursor -->
+  <div class="cursor-dot" id="cursor-dot"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
