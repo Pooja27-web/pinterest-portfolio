@@ -241,27 +241,6 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   /* Video Presentation Modal Listener */
-  const watchPresentationBtn = document.getElementById('watch-presentation-btn');
-  const videoModal = document.getElementById('video-presentation-modal');
-  const videoModalCloseBtn = document.getElementById('video-modal-close-btn');
-  const videoIframe = document.getElementById('video-modal-iframe');
-
-  // Default video URL (Can be YouTube embed URL, Loom embed URL, or local MP4)
-  const presentationVideoUrl = "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1"; 
-
-  if (watchPresentationBtn && videoModal) {
-    watchPresentationBtn.addEventListener('click', () => {
-      if (videoIframe) videoIframe.src = presentationVideoUrl;
-      videoModal.classList.add('open');
-    });
-  }
-
-  if (videoModalCloseBtn && videoModal) {
-    videoModalCloseBtn.addEventListener('click', () => {
-      videoModal.classList.remove('open');
-      if (videoIframe) videoIframe.src = "";
-    });
-  }
 
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
